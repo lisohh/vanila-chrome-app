@@ -106,12 +106,12 @@ form#todo-form input {
 ul {
   position: fixed;
   display: inline-block;
-  margin: 0 30rem 0 90rem;
-  padding: 0.5rem 1.5rem 0px 1.5rem;
-  right: -19.5rem;
+  margin: 0 30rem 1rem 90rem;
+  padding: 0.5rem 0.6rem 0px 0.4rem;
+  right: -20rem;
   top: 42rem;
   height: auto;
-  width: 19rem;
+  width: 20rem;
   border: 0px solid #ffffff;
   border-radius: 0.5rem;
   text-align: left;
@@ -128,7 +128,7 @@ li button {
   width: 30px;
   height: 30px;
   border-radius: 20%;
-  margin-left: 180px;
+  margin-left: 140px;
   background-color: rgb(255, 255, 255);
 }
 
