@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  background-color: rgb(233, 224, 218);
+  height: 110%;
+  overflow-y: scroll;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+h1 {
+  margin-left: 100px;
+  margin-top: 40px;
+}
+form#login-form {
+  position: fixed;
+  top: 2rem;
+  right: 100px;
+}
+
+form#login-form input {
+  padding: 0 20px;
+  margin-right: 1rem;
+  height: 2.5rem;
+  border: 0px solid #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+div#clock {
+  position: fixed;
+  top: 8rem;
+  right: 18rem;
+  width: 20rem;
+  height: 20rem;
+  background-color: salmon;
+  border-radius: 50%;
+  text-align: center;
+}
+
+p#clock-message {
+  margin-top: 4rem;
+  margin-bottom: 1.5rem;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+p#clock {
+  margin-top: 0;
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+#quote span:first-child {
+  position: relative;
+  top: 18rem;
+  display: inline-block;
+  margin-left: 100px;
+  font-size: 5rem;
+  font-weight: 600;
+  width: 600px;
+}
+
+#quote span:last-child {
+  position: relative;
+  top: 18rem;
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: 600;
+  width: 200px;
+}
+
+img {
+  position: relative;
+  top: 24rem;
+  margin-left: 100px;
+  margin-bottom: 150px;
+  width: 50%;
+  height: 20%;
+  border-radius: 2rem;
+}
+
+form#todo-form input {
+  position: fixed;
+  display: inline-block;
+  top: 37rem;
+  margin: 0 30rem 0 80rem;
+  padding: 0px 1.5rem;
+  right: -20rem;
+  height: 3rem;
+  width: 20rem;
+  border: 0px solid #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+ul {
+  position: fixed;
+  display: inline-block;
+  margin: 0 30rem 0 90rem;
+  padding: 0.5rem 1.5rem 0px 1.5rem;
+  right: -19.5rem;
+  top: 42rem;
+  height: auto;
+  width: 19rem;
+  border: 0px solid #ffffff;
+  border-radius: 0.5rem;
+  text-align: center;
+  background-color: bisque;
+}
+
+li {
+  margin-bottom: 0.8rem;
+  margin-left: 1rem;
+}
+
+li button {
+  border: none;
+  width: 30px;
+  height: 30px;
+  border-radius: 20%;
+  margin-left: 180px;
+  background-color: rgb(255, 255, 255);
+}
+
+div#weather {
+  position: fixed;
+  z-index: 10;
+  top: 20rem;
+  right: 160px;
+  width: 16rem;
+  height: 6rem;
+  background-color: rgb(236, 255, 173);
+  border-radius: 1rem;
+  text-align: center;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding: 1.5rem 4rem 0 1rem;
+}
